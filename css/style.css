@@ -35,3 +35,22 @@
     height: 500px;
     background-color: lightgreen;
 }
+
+.contact-me {
+    margin: 20px 0;
+    height: 500px;
+}
+
+.footer {
+    height: 300px;
+}
+
+.top-footer {
+    height: 200px;
+    background-color: cadetblue;
+}
+
+.bottom-footer {
+    height: 100px;
+    background-color: rgb(6, 93, 151);
+}
