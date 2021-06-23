@@ -1,13 +1,46 @@
+
+.bg-blue {
+    background-color: #2c3e50;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* LAYOUT */
 .brdr {
     border: 1px dashed black;
 }
 
 
-.header {
-    height: 80px;
-    border: 1px dashed black;
-    background-color: yellow;
-}
 
 .jumbo {
     height: 500px;
