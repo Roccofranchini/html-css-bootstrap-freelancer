@@ -38,7 +38,7 @@
     </header>
 
     <main>
-        <section class="jumbo">
+        <section id="jumbo">
             <div class="container h-100">
                 <div class="row h-100">
                     <div class="col jumbo-col"></div>
@@ -46,7 +46,7 @@
             </div>
         </section>
 
-        <section class="portfolio">
+        <section id="portfolio">
             <div class="container">
                 <div class="row gy-1">
                     <div class="col-12"></div>
@@ -60,7 +60,7 @@
             </div>
         </section>
 
-        <section class="about">
+        <section id="about">
             <div class="container h-100">
                 <div class="row">
                     <div class="col brdr">
@@ -87,17 +87,33 @@
             </div>
         </section>
 
-        <section class="contact-me">
-            <div class="container">
-                <div class="row">
-                    <div class="col brdr">
-                        contact me
-                    </div>
+        <section id="contact" class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-center">Contact Me</h2>
                 </div>
-                <div class="row">
-                    <div class="col offset-lg-2 col-lg-8 brdr">
-                        form
-                    </div>
+            </div>
+            <div class="row">
+                <div class="col offset-lg-2 col-lg-8">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" name="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" name="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone-number" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone-number" name="phone-number">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
                 </div>
             </div>
         </section>
