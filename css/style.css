@@ -10,6 +10,11 @@ body {
     background-color: #28bc9f;
 }
 
+#about {
+    background-color: #28bc9f;
+}
+
+
 #jumbo .container .row img {
     height: 200px;
 }
@@ -21,6 +26,12 @@ body {
 }
 
 #portfolio .row hr {
+    height: 5px;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+#about .row hr {
     height: 5px;
     border-radius: 10px;
     opacity: 1;
