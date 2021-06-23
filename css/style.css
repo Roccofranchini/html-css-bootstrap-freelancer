@@ -4,7 +4,6 @@
 }
 
 #jumbo {
-    height: 500px;
     background-color: #28bc9f;
 }
 
@@ -16,6 +15,10 @@
     height: 5px;
     border-radius: 10px;
     opacity: 1;
+}
+
+#jumbo .row .col p {
+    font-size: 13px;
 }
 
 #contact .form-control {
