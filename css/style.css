@@ -14,24 +14,15 @@ body {
     background-color: #28bc9f;
 }
 
+.txt-green {
+    color: #22bb9d;
+}
 
 #jumbo .container .row img {
     height: 200px;
 }
 
-#jumbo .row hr {
-    height: 5px;
-    border-radius: 10px;
-    opacity: 1;
-}
-
-#portfolio .row hr {
-    height: 5px;
-    border-radius: 10px;
-    opacity: 1;
-}
-
-#about .row hr {
+.row hr {
     height: 5px;
     border-radius: 10px;
     opacity: 1;
@@ -52,85 +43,48 @@ body {
     border-width: 0 0 1px 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /* LAYOUT */
-.brdr {
-    border: 1px dashed black;
-}
-
-
-
-.jumbo {
-    height: 500px;
-    background-color: lightgreen;
-}
-
-.jumbo-col {
-    height: 100%;
-    border: 1px dashed black;
-}
-
-.portfolio {
-    margin-top: 100px;
-}
-
-.portfolio .container .row * {
-    height: 200px;
-    border: 1px dashed black;
-    /* margin: 10px 0; */
-    background-color: red;
-}
-
-.about {
-    margin-top: 50px;
-    height: 500px;
-    background-color: lightgreen;
-}
-
-.contact-me {
-    
-    height: 500px;
-}
-
-.footer {
-    height: 300px;
+#contact .btn-primary {
+    background-color: #22bb9d;
 }
 
 .top-footer {
-    height: 200px;
-    background-color: cadetblue;
+    background-color: #3a546d;
 }
 
 .bottom-footer {
-    height: 100px;
-    background-color: rgb(6, 93, 151);
+    background-color: #2c3e50;
 }
+
+.social-icon {
+    margin: 0 10px;
+    padding: 5px;
+    border: 5 px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -18,7 +18,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-blue">
             <div class="container-fluid">
-                <a class="navbar-brand fs-2" href="#">START BOOTSTRAP</a>
+                <a class="navbar-brand" href="#">START BOOTSTRAP</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -57,12 +57,12 @@
                     <div class="offset-2 col-8 offset-md-4 col-md-4">
                         <div class="row">
                             <div class="col">
-                                <hr class="text-white position-relative">
+                                <hr class="text-white">
                             </div>
                             <div class="col-1 d-flex justify-content-center fs-1 text-white"><i class="fas fa-star"></i>
                             </div>
                             <div class="col">
-                                <hr class="text-white position-relative">
+                                <hr class="text-white">
                             </div>
                         </div>
                     </div>
@@ -77,24 +77,24 @@
 
         <section id="portfolio" class="my-4">
             <div class="container">
-                <div class="row">
+                <div class="row pb-5">
                     <div class="col-12 text-center">
                         <p class="fs-5 fw-bold">PORTFOLIO</p>
                     </div>
                     <div class="offset-2 col-8 offset-md-4 col-md-4">
                         <div class="row">
                             <div class="col">
-                                <hr class="position-relative">
+                                <hr>
                             </div>
                             <div class="col-1 d-flex justify-content-center fs-1 "><i class="fas fa-star"></i>
                             </div>
                             <div class="col">
-                                <hr class="position-relative">
+                                <hr>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row gy-3">
+                <div class="row gy-3 py-5">
                     <div class="col-12"></div>
                     <div class="col-md-6 col-lg-4 d-flex justify-content-center">
                         <img src="./img/cabin.png" alt="">
@@ -129,12 +129,12 @@
                         <div class="offset-4 col-4 offset-md-4 col-md-4">
                             <div class="row text-white">
                                 <div class="col">
-                                    <hr class="position-relative">
+                                    <hr>
                                 </div>
                                 <div class="col-1 d-flex justify-content-center fs-1 "><i class="fas fa-star"></i>
                                 </div>
                                 <div class="col">
-                                    <hr class="position-relative">
+                                    <hr>
                                 </div>
                             </div>
                         </div>
@@ -155,59 +155,109 @@
                     <div class="row">
                         <div class="col-12 d-flex justify-content-center">
                             <button type="button" class="btn btn-outline-light"><i
-                                    class="fas fa-download text-white"></i> Light</button>
+                                    class="fas fa-download text-white"></i> Download</button>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="container">
-            <div class="row">
-                <div class="col">
-                    <h2 class="text-center">Contact Me</h2>
+        <section id="contact" class="container my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <p class="fs-5 fw-bold">CONTACT ME</p>
+                    </div>
+                    <div class="offset-2 col-8 offset-md-4 col-md-4">
+                        <div class="row mb-5">
+                            <div class="col">
+                                <hr>
+                            </div>
+                            <div class="col-1 d-flex justify-content-center fs-1 "><i class="fas fa-star"></i>
+                            </div>
+                            <div class="col">
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col offset-lg-2 col-lg-8">
-                    <form>
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="name" name="name">
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email Address</label>
-                            <input type="email" class="form-control" id="email" name="email">
-                        </div>
-                        <div class="mb-3">
-                            <label for="phone-number" class="form-label">Phone Number</label>
-                            <input type="tel" class="form-control" id="phone-number" name="phone-number">
-                        </div>
-                        <div class="mb-3">
-                            <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" id="message" name="message" rows="3"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
+                <div class="row">
+                    <div class="col offset-lg-2 col-lg-8">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" name="name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="email" name="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone-number" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone-number" name="phone-number">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <div class="top-footer">
+        <div class="top-footer px-3 py-4">
             <div class="container">
-                <div class="row g-3">
-                    <div class="col-12 col-md-4 brdr">1</div>
-                    <div class="col-12 col-md-4 brdr">2</div>
-                    <div class="col-12 col-md-4 brdr">3</div>
+                <div class="row g-3 text-white text-center">
+                    <div class="col-12 col-md-4">
+                        <div class="row">
+                            <div class="col-12">
+                                <p>LOCATION</p>
+                            </div>
+                            <div class="col-12">
+                                <p>2215 John Daniel Drive Clark, MO 54243</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="row">
+                            <div class="col-12">
+                                <p>AROUND THE WEB</p>
+                            </div>
+                            <div class="col-12 fs-5">
+                                <i class="fab fa-facebook-f social-icon"></i>
+                                <i class="fab fa-google social-icon"></i>
+                                <i class="fab fa-twitter social-icon"></i>
+                                <i class="fab fa-linkedin-in social-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="row">
+                            <div class="col-12">
+                                <p>ABOUT FREELANCER</p>
+                            </div>
+                            <div class="col-12">
+                                <p>
+                                    Freelance is a free to use, open source Bootstrap theme created by <span
+                                        class="txt-green">Start
+                                        Bootstrap</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="bottom-footer">
+        <div class="bottom-footer py-3">
             <div class="container">
-                <div class="row bottom-footer">
-                    <div class="col h-100 brdr"></div>
+                <div class="row bottom-footer text-white text-center">
+                    <div class="col">
+                        <p>Copyright © Your Website 2021</p>
+                    </div>
                 </div>
             </div>
         </div>
